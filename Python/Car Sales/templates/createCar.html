@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/mainPage.css') }}">
+        <title>Users</title>
+    </head>
+    <body>
+        <div id="header">
+            <a href="/mainPage/{{session['userID']}}" class="headerLink">Dashboard</a>
+            <a href="/logout" class="headerLink">logout</a>
+        </div>
+        <h1>Put Car Up For Sale</h1>
+        <form action="/saveCar/{{id}}" method="POST">
+            <label for="price" >Price:</label>
+            <input type="number" name="price">
+
+            <label for="make" >Make:</label>
+            <input type="text" name="make">
+            <label for="model" >Model:</label>
+            <input type="text" name="model">
+            <label for="year" >Year:</label>
+            <input type="text" name="year">
+
+            <label for="description" >Description:</label>
+            <input type="text" name="description" class="largeBox">
+            
+            <input type="submit" value="Add">
+            </form>
+    </body>
+</html>

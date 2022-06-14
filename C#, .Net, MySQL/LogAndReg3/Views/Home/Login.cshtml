@@ -1,0 +1,22 @@
+@model LoginUser
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Success!</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <br>
+        <form asp-action="Login" asp-controller="Home" method="post">
+            <br>
+            <label asp-for="email"></label>
+            <input type="text" asp-for="email">
+            <br>
+            <label asp-for="password"></label>
+            <input type="password" asp-for="password">
+            <br>
+
+            <input value="Login" type="submit">
+        </form>
+    </body>
+</html>

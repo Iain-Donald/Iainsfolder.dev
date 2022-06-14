@@ -1,0 +1,83 @@
+* {
+    background-color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-size: 16pt;
+    background-color: transparent;
+}
+
+.headerLink {
+    margin: 10px;
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+.col {
+    width: fit-content;
+    margin: 20px;
+}
+
+input {
+    display: block;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted rgb(187, 187, 187);
+}
+
+#header {
+    display: flex;
+    justify-content: right;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(226, 226, 226);
+}
+
+tr:first-child {
+    background-color: rgb(200, 200, 200);
+    border-bottom: 1px dotted rgb(100, 100, 100);
+}
+
+td, th {
+    border-right: solid grey;
+    background-color: transparent;
+}
+
+table {
+    border: solid grey;
+    border-collapse: collapse;
+}
+
+#showBox {
+    border: 1px solid black;
+    padding: 30px 100px 30px 20px;
+    width: max-content;
+    margin:auto;
+}
+
+#buttons{
+    display: flex;
+}
+
+.largeBox {
+    height: 100px;
+    width: 250px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+}

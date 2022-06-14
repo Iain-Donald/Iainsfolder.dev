@@ -1,0 +1,13 @@
+@model Hobby
+<h1 class="split">Create a hobby!</h1>
+<a href="home" class="split"><button>Home</button></a>
+<form asp-action="PostNewHobby" asp-controller="Home" method="post">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name"></label>
+    <input asp-for="Name">
+    <span asp-validation-for="Description"></span>
+    <label asp-for="Description"></label>
+    <input asp-for="Description">
+    
+    <input value="Add Hobby" type="submit">
+</form>

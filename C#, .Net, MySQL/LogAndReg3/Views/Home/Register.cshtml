@@ -1,0 +1,27 @@
+@model User
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <br>
+        <form asp-action="Register" asp-controller="Home" method="post">
+            <br>
+            <label asp-for="firstName"></label>
+            <input asp-for="firstName">
+            <br>
+            <label asp-for="lastName"></label>
+            <input asp-for="lastName">
+            <br>
+            <label asp-for="email"></label>
+            <input asp-for="email">
+            <br>
+            <label asp-for="password"></label>
+            <input asp-for="password">
+
+            <input value="Register" type="submit">
+        </form>
+    </body>
+</html>

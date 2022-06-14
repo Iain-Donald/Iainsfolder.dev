@@ -1,0 +1,26 @@
+@model Hobby
+<h1 class="split">Hobby Hub</h1>
+<h4 class="split">Welcome, @ViewBag.Name</h1>
+<a href="/logout" class="split"><button>Logout</button></a>
+<a href="/home" class="split"><button>Home</button></a>
+<hr>
+<h1>@Model.Name</h1>
+<h4>Description: @Model.Description</h4>
+<br>
+<h4>Enthusiasts:</h4>
+@{
+    bool alreadyJoined = false;
+
+    foreach (var u in @Model.UsersJoined.OrderByDescending(b => b.User.CreatedAt).ToList())
+    {
+        if (@u.User.UserId == @ViewBag.loggedInId)
+        {
+            alreadyJoined = true;
+        }
+        <h5>@u.User.FirstName @u.User.LastName</h5>
+    }
+    if (!alreadyJoined)
+    {
+        <a href="@Model.HobbyId/join"><button>Become an Enthusiast</button></a>
+    }
+}

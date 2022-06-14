@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: rgb(94, 55, 24);
+  color: aliceblue;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.displayRight {
+  width: fit-content;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  margin: 30px;
+  height: fit-content;
+  border: 2px solid black;
+}
+
+.displayCenter {
+  width: fit-content;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: fit-content;
+  text-align: center;
+}
+
+.displayLeft {
+  width: fit-content;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  text-align: center;
+  margin: 30px;
+  height: fit-content;
+  border: 2px solid black;
+}
+
+.bodyContent {
+  background-color: rgb(240, 200, 69);
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+
+
+.redButton {
+  background-color: #ff4747;
+  text-decoration: none;
+  border-width: 1px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  width: 110px;
+}
+
+.blueButton {
+  background-color: #9b99ff;
+  text-decoration: none;
+  border-width: 1px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  width: 110px;
+}
+
+.contentBlock {
+  background-color: rgb(238, 196, 59);
+  text-align: center;
+  padding: 5px;
+  width: 50vw;
+  height: 100px;
+  border: 2px solid black;
+}
+
+#inline {
+  display: flex;
+}
+
+#showPage {
+  justify-content: center;
+  padding-left: 210px;
+}
+
+#errorText {
+  color: red;
+}

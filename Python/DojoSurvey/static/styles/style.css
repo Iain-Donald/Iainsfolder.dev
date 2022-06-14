@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+form {
+    background-color: blanchedalmond;
+    display: block;
+    justify-content: left;
+}
+
+input {
+    display: block;
+}

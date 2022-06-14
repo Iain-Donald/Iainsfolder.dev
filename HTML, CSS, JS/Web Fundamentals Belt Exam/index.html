@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Iain's Code</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!------------------------------------Top Header-->
+        <div id="topHeader">
+            <div class="headerBox">
+                <h1>Live Scores</h1>
+                <div class="scoreBlock">
+                    <p>SJC Ninjas - 314</p>
+                    <p>NS Pirates - 159</p>
+                </div>
+                <div class="scoreBlock">
+                    <p>CHI Samurai - 0</p>
+                    <p>TUL Wizards - 0</p>
+                </div>
+                <div class="scoreBlock">
+                    <p>BOS Hackers - 13</p>
+                    <p>TYO Youkai - 37</p>
+                </div>
+                <div class="scoreBlock">
+                    <p>BOI Knights - 5</p>
+                    <p>SEA Sea Lions - 11</p>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------Bottom Header-->
+        <div id="bottomHeader">
+            <div class="headerBox" id="fullWidth">
+                <div id="logo"><h1>DSNN</h1></div>
+                <button class="sport">Football</button>
+                <button class="sport">Basketball</button>
+                <button class="sport">Baseball</button>
+                <button class="sport">Soccer</button>
+                <button class="sport">More...</button>
+                <div id="iconBox">
+                    <img src="search-light.png" alt="search" class="icons">
+                    <img src="hamburger-light.png" alt="hamburger" class="icons">
+                    <img src="user-circle-light.png" alt="user" class="icons">
+                </div>
+            </div>
+        </div>
+
+        <div id="page">
+            <!------------------------------------Left Column-->
+            <div id="leftColumn">
+                <div class="block">
+                    <div id="blockHeader">
+                        <h1>Top Stories</h1>
+                    </div>
+                    <p class="blockP">Ninjas up big in 5th</p>
+                    <p class="blockP">Best sports cities</p>
+                    <p class="blockP">Choi joins Hall of Fame</p>
+                    <p class="blockP">Tournament underway</p>
+                    <p class="blockP">Samurai at Wizards</p>
+                </div>
+                <div class="block">
+                    <h3>Customize your DSNN</h3>
+                    <button id="signIn">Sign In</button>
+                    <button id="signUp">Sign Up</button>
+                </div>
+                <div class="block">
+                    <h3>Never miss a play</h3>
+                    <button id="subscribe" onclick="removeSubscribe()">Subscribe</button>
+                </div>
+            </div>
+            <!------------------------------------Right Column-->
+            <div id="rightColumn">
+                <div id="rightHeader">
+                    <div id="dotBox">
+                        <div id="dot"></div>
+                        <h1 id="live">Live</h1>
+                    </div>
+                    <h1>Ninjas leading Pirates</h1>
+                </div>
+                <div id="photos">
+                    <img src="sjc-ninjas.png" alt="Ninjas">
+                    <h1 id="vs">VS</h1>
+                    <img src="ns-pirates.png" alt="Pirates">
+                </div>
+                <div id="scoreBox">
+                    <div class="scoreItem">
+                        <h2>San Jose</h2>
+                        <h1 id="ninjas">Ninjas</h1>
+                        <p class="scoreCount">(10 W - 3 L)</p>
+                        <p id="scoreNum1" onclick="addNum('#scoreNum1')">314</p>
+                    </div>
+                    <div class="scoreItem" id="midItem">
+                        <p>0:13 remaining</p>
+                        <p>5th period</p>
+                    </div>
+                    <div class="scoreItem">
+                        <h2>Nova Scotia</h2>
+                        <h1 id="pirates">Pirates</h1>
+                        <p class="scoreCount">(12 W - 2 L)</p>
+                        <p id="scoreNum2" onclick="addNum('#scoreNum2')">159</p>
+                    </div>
+                </div>
+                <div id="bottomBox">
+                    <h3>A conservative match between the two top-performing aides in the Central League Division with a number 1 seed at stake... <a href="http://www.bing.com">get live updates</a></h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

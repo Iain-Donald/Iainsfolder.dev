@@ -1,0 +1,33 @@
+* {
+    margin: 20px;
+}
+button {
+    display: block;
+}
+
+.type1 {
+    color: rgb(102, 201, 168);
+    padding: 4px 50px;
+    border-radius: 15px;
+    border-color: rgb(102, 201, 168);
+    border-style: solid;
+    font-weight: 700;
+}
+
+.type2 {
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    border-style: none;
+    background-color: rgb(103, 219, 180);
+}
+
+.type3 {
+    width: 160px;
+    height: 30px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    border-color: black;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,22 @@
+h1 {
+    font-family: Helvetica;
+}
+
+p {
+    display: inline-block;
+}
+
+.radioP {
+    display: block;
+}
+
+#largeBox {
+    height: 70px;
+    width: 250px;
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 20px 0px;
+}

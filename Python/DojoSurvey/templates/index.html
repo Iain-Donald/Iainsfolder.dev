@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+        <title>Dojo Survey</title>
+    </head>
+    <body>
+        <div id="menu">
+            <form action="/process" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name">
+
+                <label for="location">Location</label>
+                <input list="location" name="location">
+                <datalist id="location">
+                <option value="Seattle">
+                <option value="San Antonio">
+                <option value="Los Angeles">
+                <option value="San Francisco">
+                </datalist>
+
+                <label for="language">Favorite Language:</label>
+                <input list="language" name="language">
+                <datalist id="language">
+                <option value="Python">
+                <option value="JavaScript">
+                <option value="Java">
+                <option value="C++">
+                </datalist>
+
+                <label for="comment">Comment (optional):</label>
+                <input type="text" name="comment">
+
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>

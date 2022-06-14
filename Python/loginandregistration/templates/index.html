@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/login.css') }}">
+        <title>index</title>
+    </head>
+    <body>
+        <a href="/users">Users</a>
+        
+        <div id="wrap">
+        <div class="col">
+        <h1>Register</h1>
+        <form action="/" method="POST">
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name">
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name">
+        <label for="email" >Email:</label>
+        <input type="text" name="email">
+        <label for="password" >Password:</label>
+        <input type="password" name="password">
+        <label for="confPass" >Confirm Password:</label>
+        <input type="password" name="confPass">
+        <input type="submit" value="Register">
+    </form>
+    <p>{{error}}</p>
+    </div>
+    <div class="col">
+        <h1>Login</h1>
+        <form action="/login" method="POST">
+        <label for="email" >Email:</label>
+        <input type="text" name="email">
+        <label for="pw" >Password:</label>
+        <input type="password" name="pw">
+        <input type="submit" value="Login">
+        </form>
+    </div>
+</div>
+    </body>
+</html>

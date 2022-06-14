@@ -1,0 +1,33 @@
+* {
+    background-color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-size: 16pt;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: fit-content;
+    margin: 20px;
+}
+
+input {
+    display: block;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted rgb(187, 187, 187);
+}
+
+p {
+    color: white;
+    background-color: black;
+}

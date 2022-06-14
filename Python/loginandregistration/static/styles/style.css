@@ -1,0 +1,17 @@
+* {
+    background-color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr, td {
+    border-bottom: 1px solid rgb(100, 100, 100);
+    border-left: 1px solid rgb(100, 100, 100);
+}
+
+table {
+    border: 1px solid black;
+}
+
+a {
+    font-size: 16pt;
+}

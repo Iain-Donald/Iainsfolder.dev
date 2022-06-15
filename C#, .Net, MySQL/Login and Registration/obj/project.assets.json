@@ -907,21 +907,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iaind\\Documents\\DOJO\\Full_Dojo\\C#\\ORMs\\LoginAndRegistration\\LogAndReg3\\LogAndReg3.csproj",
+      "projectUniqueName": "C:\\Users\\iaind\\OneDrive\\Documents\\IAIN\\Iainsfolder.dev\\C#, .Net, MySQL\\Login and Registration\\LogAndReg3.csproj",
       "projectName": "LogAndReg3",
-      "projectPath": "C:\\Users\\iaind\\Documents\\DOJO\\Full_Dojo\\C#\\ORMs\\LoginAndRegistration\\LogAndReg3\\LogAndReg3.csproj",
+      "projectPath": "C:\\Users\\iaind\\OneDrive\\Documents\\IAIN\\Iainsfolder.dev\\C#, .Net, MySQL\\Login and Registration\\LogAndReg3.csproj",
       "packagesPath": "C:\\Users\\iaind\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iaind\\Documents\\DOJO\\Full_Dojo\\C#\\ORMs\\LoginAndRegistration\\LogAndReg3\\obj\\",
+      "outputPath": "C:\\Users\\iaind\\OneDrive\\Documents\\IAIN\\Iainsfolder.dev\\C#, .Net, MySQL\\Login and Registration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\iaind\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\iaind\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -969,7 +967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

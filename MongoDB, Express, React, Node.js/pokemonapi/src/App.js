@@ -12,7 +12,6 @@ const SomeComponent = props => {
   var returnArray = new Array;
   if(responseData != null){
     for(let i = 0; i < responseData.results.length; i++){
-      //console.log(responseData.results[i].name);
       returnArray.push(responseData.results[i].name + "\n")
     }
     return returnArray;
@@ -25,10 +24,7 @@ function App() {
   return (
     <div>
       <List output={out}/>
-      
-      
-    </div>
-    
+    </div>    
   );
 }
 export default App;

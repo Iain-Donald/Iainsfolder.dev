@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WMg2Pc0qIrsRQsUhyC//jQm4yybja4exguZbo/y7kHL3NWK9d3xGXyb/t4phscExm90zUqSbEVVwy+fDRgQ0Fw==",
+  "dgSpecHash": "Gm8gd3jzZwFF9u1VKa57Rh03y7hj/CuSSIVcT5JwKYcZQ9BdU/vvjx/CnIopwxIG9XG3L12NeMX89Fb1yAZogQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iaind\\Documents\\DOJO\\Full_Dojo\\C#\\ORMs\\LoginAndRegistration\\LogAndReg3\\LogAndReg3.csproj",
+  "projectFilePath": "C:\\Users\\iaind\\OneDrive\\Documents\\IAIN\\Iainsfolder.dev\\C#, .Net, MySQL\\Login and Registration\\LogAndReg3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iaind\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\iaind\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
